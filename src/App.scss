@@ -1,0 +1,65 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #000000;
+  color: white;
+}
+
+.App {
+  margin-top: 10rem;
+}
+
+.container {
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+  border: 2px solid #187579;
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: center;
+  width: 20rem;
+  margin: auto;
+  background: #393E46;
+}
+
+.Password {
+  display: flex;
+  justify-content: space-between;
+  background: #0e6f72;
+  border-radius: 5px;
+  margin: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  h1 {
+    font-size: 1rem;
+  }
+  button {
+    background: #1bb9be;
+    border: none;
+  }
+}
+
+@media (max-width: 60rem) {
+  .container {
+    background: none;
+    border: none;
+    padding: 0rem;
+  }  
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.generatorBtn {
+  padding: 0.5rem 5rem;
+  cursor: pointer;
+  border: none;
+  background: #1bb9be;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
